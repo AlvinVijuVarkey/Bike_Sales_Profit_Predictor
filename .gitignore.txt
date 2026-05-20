@@ -1,0 +1,5 @@
+bike_sales_model.pkl
+bike_sales_model_compressed.pkl
+*.pkl
+venv/
+__pycache__/

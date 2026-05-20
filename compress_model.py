@@ -4,6 +4,6 @@ import joblib
 model = joblib.load("bike_sales_model.pkl")
 
 # save compressed version
-joblib.dump(model, "bike_sales_model_compressed.pkl", compress=3)
+joblib.dump(model, "bike_sales_model.pkl", compress=3)
 
 print("Model compressed successfully!")
